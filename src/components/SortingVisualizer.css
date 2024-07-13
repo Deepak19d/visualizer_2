@@ -1,0 +1,30 @@
+/* src/components/SortingVisualizer.css */
+.sorting-visualizer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .array-container {
+    display: flex;
+    align-items: flex-end;
+    height: 80vh;
+    width: 80%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  
+  .array-bar {
+    background-color: turquoise;
+    width: 10px;
+    margin: 0 1px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
